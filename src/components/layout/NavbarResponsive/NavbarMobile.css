@@ -1,0 +1,32 @@
+.navbarMobile-container {
+  display: grid;
+  background-image: url("../../../assets/img/background.jpeg");
+  filter: contrast(105%);
+  background-position: center;
+  background-size: cover;
+  height: 550px;
+  grid-template-columns: 15vw 70vw 10vw;
+  grid-template-rows: 120px;
+  img {
+    margin: 20px;
+    padding: 5px;
+    width: 100px;
+    background-color: #fff;
+    border-radius: 50px;
+  }
+}
+
+.btn-menu {
+  width: 50px;
+  background: none;
+  border: none;
+  font-size: 3.5em;
+  grid-column: 3/4;
+  color: #fff;
+}
+
+.navbar-container_separador {
+  grid-column: 2/4;
+  margin: 0 15px 0 60px;
+  height: 1px;
+}
