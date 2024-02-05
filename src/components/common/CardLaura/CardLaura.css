@@ -1,0 +1,35 @@
+.card-container {
+  margin: 75px 95px;
+  text-align: center;
+  font-size: 4.5em;
+  font-weight: 500;
+  line-height: 1.5em;
+  color: #fff;
+}
+
+.card-container_presentation {
+  img {
+    width: 1500px;
+    left: -32vw;
+    margin: 300px 0;
+    position: absolute;
+    z-index: 50;
+  }
+}
+
+.card-container_presentation--textarea {
+  width: 1680px;
+  height: 1000px;
+  margin: 300px 0 0 250px;
+  padding: 20px 15px 0 350px;
+  line-height: 50px;
+  border-radius: 105px;
+  background: #f4f4f3;
+  color: #000;
+  font-size: 28px;
+  box-shadow: -8px 4px 10px 3px #0005;
+}
+
+.card-container_presentation--textarea p {
+  margin: 25px 0;
+}

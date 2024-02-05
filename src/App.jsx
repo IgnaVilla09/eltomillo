@@ -1,11 +1,12 @@
 import "./App.css";
 import Navbar from "./components/layout/Navbar/Navbar";
 import NavbarMobile from "./components/layout/NavbarResponsive/NavbarMobile";
+import Home from "./components/pages/Home/Home";
 
 function App() {
   return (
     <>
-      <header>
+      <header className="header-container">
         <nav className="navbar-desktop">
           <Navbar />
         </nav>
@@ -13,6 +14,9 @@ function App() {
           <NavbarMobile />
         </nav>
       </header>
+      <main className="main-container">
+        <Home />
+      </main>
     </>
   );
 }

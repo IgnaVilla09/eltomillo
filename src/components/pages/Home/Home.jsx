@@ -1,7 +1,8 @@
+import CardLaura from "../../common/CardLaura/CardLaura";
 import "./Home.css";
 
 const Home = () => {
-  return <div>Home</div>;
+  return <CardLaura />;
 };
 
 export default Home;

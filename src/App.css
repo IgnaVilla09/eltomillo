@@ -1,4 +1,17 @@
-@media screen and (min-width: 1000px) {
+.header-container {
+  width: 100%;
+}
+
+.main-container {
+  position: relative;
+  top: 400px;
+}
+
+body {
+  background: #f4f4f3;
+}
+
+@media screen and (min-width: 1100px) {
   /* Ocultar el navbar móvil */
   .navbar-mobile {
     display: none;
@@ -6,7 +19,7 @@
 }
 
 /* Estilos específicos para tamaños de pantalla menores o iguales a 1000px */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   /* Ocultar el navbar de escritorio */
   .navbar-desktop {
     display: none;
