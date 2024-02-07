@@ -9,7 +9,6 @@
   grid-template-columns: 15vw 70vw 10vw;
   grid-template-rows: 120px;
   position: absolute;
-  z-index: -1;
   img {
     margin: 20px;
     padding: 5px;
@@ -26,6 +25,7 @@
   font-size: 3.5em;
   grid-column: 3/4;
   color: #fff;
+  cursor: pointer;
 }
 
 .navbar-container_separador {
