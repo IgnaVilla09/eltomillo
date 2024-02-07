@@ -1,4 +1,5 @@
 import "./App.css";
+import WhatsappBtn from "./components/common/WhatsappBtn/WhatsappBtn";
 import Navbar from "./components/layout/Navbar/Navbar";
 import NavbarMobile from "./components/layout/NavbarResponsive/NavbarMobile";
 import Home from "./components/pages/Home/Home";
@@ -16,6 +17,9 @@ function App() {
       </header>
       <main className="main-container">
         <Home />
+        <div className="Wsp-btn">
+          <WhatsappBtn />
+        </div>
       </main>
     </>
   );

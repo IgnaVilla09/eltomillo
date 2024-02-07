@@ -7,6 +7,13 @@
   top: 400px;
 }
 
+.Wsp-btn {
+  position: sticky;
+  padding: 70px;
+  bottom: 0;
+  float: right;
+}
+
 body {
   background: #fff;
 }
