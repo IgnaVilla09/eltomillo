@@ -32,3 +32,14 @@
 .vibrating {
   animation: vibrate 0.1s ease infinite;
 }
+
+@media screen and (max-width: 1100px) {
+}
+
+@media screen and (max-width: 800px) {
+  .container-btn-wsp {
+    width: 45px;
+    height: 45px;
+    font-size: 30px;
+  }
+}

@@ -35,4 +35,8 @@ body {
   .navbar-desktop {
     display: none;
   }
+
+  .Wsp-btn {
+    padding: 40px 5px;
+  }
 }

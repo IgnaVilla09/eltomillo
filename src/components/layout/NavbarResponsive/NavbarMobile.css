@@ -33,3 +33,52 @@
   margin: 0 15px 0 60px;
   height: 1px;
 }
+
+.menu-items {
+  display: none;
+  position: absolute;
+  z-index: 500;
+  right: 0;
+  background-color: #a8ce7f;
+  height: 100%;
+  width: 50vw;
+  border-radius: 0 0 0 50px;
+  button {
+    margin: 20px 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    float: right;
+  }
+}
+
+.container-items {
+  display: flex;
+  flex-direction: column;
+  gap: 2;
+  padding: 30px;
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+}
+
+.menu-li {
+  list-style: none;
+  padding: 0 0 0 5px;
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 0 0 0 5px;
+  border-bottom: 1px solid #000;
+}
+
+.submenu-li {
+  display: none;
+  list-style: none;
+  margin: 15px;
+}
+
+.show {
+  display: block;
+}
