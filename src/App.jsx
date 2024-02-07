@@ -3,6 +3,7 @@ import WhatsappBtn from "./components/common/WhatsappBtn/WhatsappBtn";
 import Navbar from "./components/layout/Navbar/Navbar";
 import NavbarMobile from "./components/layout/NavbarResponsive/NavbarMobile";
 import Home from "./components/pages/Home/Home";
+import Footer from "./components/layout/Footer/Footer";
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
           <WhatsappBtn />
         </div>
       </main>
+      <footer className="footer-container">
+        <Footer />
+      </footer>
     </>
   );
 }
