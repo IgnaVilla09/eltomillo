@@ -1,41 +1,98 @@
 import "./ProductsCarousel.css";
-import ArrowCircleLeftIcon from "@mui/icons-material/ArrowCircleLeft";
-import ArrowCircleRightIcon from "@mui/icons-material/ArrowCircleRight";
-import { useEffect } from "react";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 
 const ProductsCarousel = () => {
-  useEffect(() => {
-    const btnRight = document.getElementById("btnRight");
-    const btnLeft = document.getElementById("btnLeft");
-    const productList = document.getElementById("productList");
-
-    btnRight.addEventListener("click", function () {
-      productList.classList.remove("move-left");
-      productList.classList.add("move-right");
-    });
-
-    btnLeft.addEventListener("click", function () {
-      productList.classList.remove("move-right");
-      productList.classList.add("move-left");
-    });
-  }, []);
+  const responsive = {
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 4,
+      slidesToSlide: 3, // optional, default to 1.
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2,
+      slidesToSlide: 2, // optional, default to 1.
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+      slidesToSlide: 1, // optional, default to 1.
+    },
+  };
   return (
     <div className="productsHome-container">
       <h2>Mis productos</h2>
-      <div className="productsHome-container_list" id="productList">
-        <button className="btn-right" id="btnRight">
-          <ArrowCircleLeftIcon fontSize="string" />
-        </button>
-        <img src={import.meta.env.VITE_IMAGE_3} alt="" />
-        <img src={import.meta.env.VITE_IMAGE_4} alt="" />
-        <img src={import.meta.env.VITE_IMAGE_3} alt="" />
-        <img src={import.meta.env.VITE_IMAGE_4} alt="" />
-        <img src={import.meta.env.VITE_IMAGE_3} alt="" />
-        <img src={import.meta.env.VITE_IMAGE_4} alt="" />
-        <button className="btn-left" id="btnLeft">
-          <ArrowCircleRightIcon fontSize="string" />
-        </button>
-      </div>
+      <Carousel
+        responsive={responsive}
+        removeArrowOnDeviceType={["tablet", "mobile"]}
+        swipeable={true}
+        draggable={true}
+      >
+        <a href="">
+          <div className="productsHome-container--carousel">
+            <img
+              src={import.meta.env.VITE_IMAGE_5}
+              alt=""
+              className="img-vector"
+            />
+            <div className="productsHome-container--carousel--title">
+              <h4 className="title-card">Catálogos conscientes</h4>
+              <img
+                src={import.meta.env.VITE_IMAGE_6}
+                alt=""
+                className="planta-vector"
+              />
+            </div>
+          </div>
+        </a>
+        <a href="">
+          <div className="productsHome-container--carousel">
+            <img
+              src={import.meta.env.VITE_IMAGE_5}
+              alt=""
+              className="img-vector"
+            />
+          </div>
+        </a>
+        <a href="">
+          <div className="productsHome-container--carousel">
+            <img
+              src={import.meta.env.VITE_IMAGE_5}
+              alt=""
+              className="img-vector"
+            />
+          </div>
+        </a>
+        <a href="">
+          <div className="productsHome-container--carousel">
+            <img
+              src={import.meta.env.VITE_IMAGE_5}
+              alt=""
+              className="img-vector"
+            />
+          </div>
+        </a>
+        <a href="">
+          <div className="productsHome-container--carousel">
+            <img
+              src={import.meta.env.VITE_IMAGE_5}
+              alt=""
+              className="img-vector"
+            />
+          </div>
+        </a>
+        <a href="">
+          <div className="productsHome-container--carousel">
+            <img
+              src={import.meta.env.VITE_IMAGE_5}
+              alt=""
+              className="img-vector"
+            />
+          </div>
+        </a>
+      </Carousel>
+      ;
     </div>
   );
 };

@@ -1,81 +1,79 @@
 .productsHome-container {
-  margin: 280px 60px;
+  margin: 120px;
+
   h2 {
-    font-weight: 400;
-    font-size: 4.5em;
+    font-size: 3.4em;
+    font-weight: 300;
+    margin: 100px 0;
   }
 }
 
-.productsHome-container_list {
-  display: flex;
-  margin: 120px 0;
+.productsHome-container--carousel {
+  width: 400px;
+  height: 650px;
+  background-image: url("../../../assets/img/granos.png");
+  background-size: contain;
+  transition: all 0.5s ease;
+}
+
+.img-vector {
   width: 100%;
-  position: relative;
-  overflow-x: hidden;
-  img {
-    width: 600px;
-    padding: 50px 35px;
-    &:hover {
-      filter: contrast(120%);
-      cursor: pointer;
-    }
+  height: 100%;
+  mix-blend-mode: multiply;
+  transition: all 0.5s ease;
+  z-index: 100;
+}
+
+.productsHome-container--carousel:hover {
+  background-size: 150%;
+  background-position-x: center;
+  .img-vector {
+    width: 100%;
+    transform: scaleY(1.2);
+    transform-origin: bottom;
+    filter: saturate(180%) brightness(80%);
   }
-  button {
-    position: absolute;
-    width: 45px;
-    height: 45px;
-    background: none;
-    border: none;
+  .planta-vector {
+    transform: scale(1.4) translateX(-20px);
+    transform-origin: bottom;
+    filter: grayscale(100%) brightness(200%);
+  }
+  .productsHome-container--carousel--title h4 {
+    margin: 30px 0;
   }
 }
 
-.btn-right {
-  margin: 350px 0;
-  z-index: 80;
-  font-size: 4em;
-  color: #274400;
-}
-
-.btn-left {
-  right: 0;
-  margin: 350px 30px;
-  z-index: 80;
-  font-size: 4em;
-  color: #274400;
-}
-
-.move-left {
-  img {
-    animation: moveLeftAnimation 1s forwards;
+.productsHome-container--carousel--title {
+  display: grid;
+  grid-template-rows: 40px 140px;
+  grid-template-columns: 250px 130px;
+  align-items: flex-end;
+  margin: 470px 0;
+  padding: 0 20px;
+  width: 400px;
+  position: absolute;
+  h4 {
+    grid-column: 1/3;
+    color: #fff;
+    text-decoration: none;
+    font-size: 35px;
+    font-family: "Bellota", system-ui;
+    transition: all 0.5s ease;
   }
 }
 
-.move-right {
-  img {
-    animation: moveRightAnimation 1s forwards;
-  }
+.planta-vector {
+  width: 100%;
+  grid-row: 2/3;
+  grid-column: 2/3;
+  transition: all 0.5s ease;
 }
 
-@keyframes moveLeftAnimation {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-50%);
-  }
-}
-
-@keyframes moveRightAnimation {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(5%);
-  }
-}
-
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 800px) {
   .productsHome-container {
-    display: none;
+    margin: 300px;
+    h2 {
+      text-align: center;
+    }
   }
 }
