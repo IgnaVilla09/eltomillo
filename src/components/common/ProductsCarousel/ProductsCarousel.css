@@ -1,4 +1,6 @@
 .productsHome-container {
+  display: flex;
+  flex-direction: column;
   margin: 120px;
 
   h2 {
@@ -76,6 +78,9 @@
   .productsHome-container--carousel {
     background-size: cover;
   }
+  .Carousel-props li {
+    width: 450px !important;
+  }
   .productsHome-container--carousel--title {
     display: grid;
     grid-template-columns: 200px 170px;
@@ -95,6 +100,9 @@
 @media screen and (max-width: 800px) {
   .productsHome-container {
     margin: 300px 60px;
+  }
+  .Carousel-props li {
+    width: 450px !important;
   }
   .productsHome-container--carousel {
     background-size: cover;

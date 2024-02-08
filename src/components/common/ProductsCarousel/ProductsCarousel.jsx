@@ -24,6 +24,7 @@ const ProductsCarousel = () => {
     <div className="productsHome-container">
       <h2>Mis productos</h2>
       <Carousel
+        className="Carousel-props"
         responsive={responsive}
         removeArrowOnDeviceType={["mobile"]}
         swipeable={true}
