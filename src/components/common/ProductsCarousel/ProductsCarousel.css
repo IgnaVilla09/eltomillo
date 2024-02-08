@@ -10,6 +10,12 @@
   }
 }
 
+.Carousel-props {
+  button {
+    margin: 300px 0;
+  }
+}
+
 .productsHome-container--carousel {
   width: 400px;
   height: 650px;
