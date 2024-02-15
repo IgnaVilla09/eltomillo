@@ -1,0 +1,11 @@
+.background {
+  background-image: url("../../../assets/img/background_final-transformed.jpeg");
+  background-size: cover;
+  background-position: center;
+  filter: brightness(50%);
+  width: 100%;
+  height: 1200px;
+  position: absolute;
+  z-index: -1;
+  margin: -600px 0 0 0;
+}

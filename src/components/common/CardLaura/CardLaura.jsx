@@ -17,16 +17,20 @@ const CardLaura = () => {
       </p>
       <div className="card-container_presentation">
         <img
-          src={import.meta.env.VITE_IMAGE_2}
+          src="./src/assets/img/lauratomillo.jpg"
           alt="flower"
           className="card-container_presentation--flower"
         />
-        <div className="card-container_presentation--textarea">
-          <div className="contenido">
-            <p>MENÚ - Soy Laura Fotografía de perfil</p>
 
+        <div className="card-container_presentation--textarea">
+          <img
+            src="./src/assets/img/Hola.png"
+            alt="¡Hola!"
+            className="img-saludo"
+          />
+          <div className="contenido">
             <p>
-              ¡Hola! Mi nombre es Laura, soy la creadora de El Tomillo. Tengo
+              Mi nombre es Laura, soy la creadora de El Tomillo. Tengo
               experiencia en el diseño de espacios verdes con impronta ambiental
               y huertas urbanas. Mi sueño es llenar ciudades enteras con
               jardines comestibles, combinando mi pasión por el paisajismo con
