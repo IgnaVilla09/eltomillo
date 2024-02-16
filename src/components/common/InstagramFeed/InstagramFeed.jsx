@@ -9,8 +9,8 @@ const InstagramFeed = () => {
           width="100%"
           height="800px"
           src="https://www.instagram.com/eltomillomza/embed"
-          frameborder="#fff0"
-        ></iframe>{" "}
+          frameBorder="#fff0"
+        ></iframe>
       </div>
     </div>
   );
