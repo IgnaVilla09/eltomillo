@@ -22,9 +22,7 @@ function App() {
           <WhatsappBtn />
         </div>
       </main>
-      <footer className="footer-container">
-        <Footer />
-      </footer>
+      <Footer />
     </>
   );
 }
