@@ -3,12 +3,15 @@ import "./InstagramFeed.css";
 const InstagramFeed = () => {
   return (
     <div className="container-instagram">
-      <iframe
-        width="100%"
-        height="800px"
-        src="https://www.instagram.com/eltomillomza/embed"
-        frameborder="#fff0"
-      ></iframe>{" "}
+      <h2 className="subtitle-redes">Sigue mis proyectos en mis redes</h2>
+      <div className="container-instagram_embed">
+        <iframe
+          width="100%"
+          height="800px"
+          src="https://www.instagram.com/eltomillomza/embed"
+          frameborder="#fff0"
+        ></iframe>{" "}
+      </div>
     </div>
   );
 };

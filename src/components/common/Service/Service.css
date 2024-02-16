@@ -1,0 +1,118 @@
+.service-container {
+  width: 100%;
+  margin: 100px 0;
+}
+
+.service-container_title {
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: 465px;
+  height: 520px;
+  margin: 50px 5px 250px 5px;
+  padding: 50px 0;
+  border-radius: 75px;
+  background: #6d963180;
+}
+
+.servicios-title {
+  justify-self: center;
+  width: 700px;
+  margin: 0 50px;
+  align-self: flex-end;
+}
+
+.limones {
+  transform: scaleX(-1);
+  align-self: flex-start;
+  justify-self: center;
+  width: 900px;
+}
+
+.service-container_card--left {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 200px 550px 100px;
+  margin: 50px 0 0 0;
+  padding: 120px;
+}
+.service-container_card--right {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: 200px 550px 100px;
+  margin: 50px 0;
+  padding: 120px;
+}
+
+.service-container_card--left--img {
+  grid-row: 1/4;
+  padding: 40px 50px 10px 0;
+  width: 600px;
+  border-radius: 100px;
+  border: 2px solid #9d7351;
+
+  .img-card {
+    border-radius: 100px;
+    width: 550px;
+    height: 800px;
+    object-fit: cover;
+    margin: 0 -20px;
+  }
+
+  .img-subtitle {
+    grid-row: 1/2;
+  }
+}
+
+.service-container_card--right--img {
+  grid-row: 1/4;
+  grid-column: 2/3;
+  padding: 40px 50px 10px 0;
+  width: 600px;
+  border-radius: 100px;
+  border: 2px solid #9d7351;
+
+  .img-card {
+    border-radius: 100px;
+    width: 550px;
+    height: 800px;
+    object-fit: cover;
+    margin: 0 80px;
+  }
+
+  .img-subtitle {
+    grid-row: 1/2;
+  }
+}
+
+.img-subtitle {
+  justify-self: center;
+  align-self: flex-end;
+  width: 700px;
+}
+
+.text-service {
+  padding: 80px;
+  text-align: center;
+  font-size: 2em;
+}
+
+.btn-service {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  justify-content: center;
+  color: #73a62a;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  text-decoration: none;
+  border: 2px solid #73a62a;
+  border-radius: 10px;
+  transition: all 0.4s ease;
+}
+
+.btn-service:hover {
+  color: #a8ce7f;
+  border: 2px solid #a8ce7f;
+}

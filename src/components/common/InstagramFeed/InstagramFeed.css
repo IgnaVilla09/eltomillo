@@ -1,3 +1,11 @@
+.subtitle-redes {
+  font-family: "Liu Jian Mao Cao", "Urbanist";
+  font-size: 7em;
+  text-align: center;
+  margin: 0 0 50px 0;
+  color: #73a62a;
+}
+
 .container-instagram {
   padding: 100px;
 }
