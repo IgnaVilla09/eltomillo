@@ -4,11 +4,7 @@ const Navbar = () => {
   return (
     <div className="navbar-container">
       <a href="/">
-        <img
-          src="../../../../src/assets/img/tomillologo.png"
-          alt=""
-          className="logo-img"
-        />
+        <img src="src\assets\img\tomillologo.png" alt="" className="logo-img" />
       </a>
       <div className="navbar-container-items">
         <ul className="navbar-container-items_menu">
