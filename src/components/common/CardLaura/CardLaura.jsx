@@ -17,13 +17,17 @@ const CardLaura = () => {
       </p>
       <div className="card-container_presentation">
         <img
-          src="{imagePaths.laura}"
+          src="https://raw.githubusercontent.com/IgnaVilla09/eltomillo/main/src/assets/img/lauratomillo.jpg"
           alt="Laura"
-          className="card-container_presentation--flower"
+          className="card-container_presentation--laura"
         />
 
         <div className="card-container_presentation--textarea">
-          <img src="{imagePaths.laura}" alt="¡Hola!" className="img-saludo" />
+          <img
+            src="https://raw.githubusercontent.com/IgnaVilla09/eltomillo/main/src/assets/img/Hola.png"
+            alt="¡Hola!"
+            className="img-saludo"
+          />
           <div className="contenido">
             <p>
               Mi nombre es Laura, soy la creadora de El Tomillo. Tengo

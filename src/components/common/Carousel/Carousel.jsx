@@ -7,7 +7,7 @@ const CarouselCards = () => {
     <div className="carousel-container">
       <div className="carousel-container-subtitle">
         <img
-          src="./src/assets/img/misproductos.png"
+          src="https://raw.githubusercontent.com/IgnaVilla09/eltomillo/main/src/assets/img/misproductos.png"
           alt=""
           className="subtitle-products"
         />
@@ -22,82 +22,97 @@ const CarouselCards = () => {
         <div className="carousel-cards">
           <div className="carousel-cards-items">
             <img
-              src="./src/assets/img/catalogoconsciente.jpg"
+              src="https://raw.githubusercontent.com/IgnaVilla09/eltomillo/main/src/assets/img/catalogoconsciente.jpg"
               className="backgroundCard"
               alt=""
             />
             <img
-              src="./src/assets/img/vector.png"
+              src="https://raw.githubusercontent.com/IgnaVilla09/eltomillo/main/src/assets/img/vector.png"
               alt=""
               className="vector-green"
             />
             <div className="description-card">
               <h4>Catalogos Conscientes</h4>
-              <img src="./src/assets/img/vectorplanta.png" alt="" />
+              <img
+                src="https://raw.githubusercontent.com/IgnaVilla09/eltomillo/main/src/assets/img/vectorplanta.png"
+                alt=""
+              />
             </div>
           </div>
           <div className="carousel-cards-items">
             <img
-              src="./src/assets/img/macetas.jpg"
+              src="https://raw.githubusercontent.com/IgnaVilla09/eltomillo/main/src/assets/img/macetas.jpg"
               alt=""
               className="backgroundCard"
             />
             <img
-              src="./src/assets/img/vector.png"
+              src="https://raw.githubusercontent.com/IgnaVilla09/eltomillo/main/src/assets/img/vector.png"
               alt=""
               className="vector-green"
             />
             <div className="description-card">
               <h4>Macetas</h4>
-              <img src="./src/assets/img/vectorplanta.png" alt="" />
+              <img
+                src="https://raw.githubusercontent.com/IgnaVilla09/eltomillo/main/src/assets/img/vectorplanta.png"
+                alt=""
+              />
             </div>
           </div>
           <div className="carousel-cards-items">
             <img
-              src="./src/assets/img/plantasexteriores.jpg"
+              src="https://raw.githubusercontent.com/IgnaVilla09/eltomillo/main/src/assets/img/plantasexteriores.jpg"
               alt=""
               className="backgroundCard"
             />
             <img
-              src="./src/assets/img/vector.png"
+              src="https://raw.githubusercontent.com/IgnaVilla09/eltomillo/main/src/assets/img/vector.png"
               alt=""
               className="vector-green"
             />
             <div className="description-card">
               <h4>Plantas de exterior</h4>
-              <img src="./src/assets/img/vectorplanta.png" alt="" />
+              <img
+                src="https://raw.githubusercontent.com/IgnaVilla09/eltomillo/main/src/assets/img/vectorplanta.png"
+                alt=""
+              />
             </div>
           </div>
           <div className="carousel-cards-items">
             <img
-              src="./src/assets/img/kokedamas.jpg"
+              src="https://raw.githubusercontent.com/IgnaVilla09/eltomillo/main/src/assets/img/kokedamas.jpg"
               alt=""
               className="backgroundCard"
             />
             <img
-              src="./src/assets/img/vector.png"
+              src="https://raw.githubusercontent.com/IgnaVilla09/eltomillo/main/src/assets/img/vector.png"
               alt=""
               className="vector-green"
             />
             <div className="description-card">
               <h4>Plantas de interior y kokedamas</h4>
-              <img src="./src/assets/img/vectorplanta.png" alt="" />
+              <img
+                src="https://raw.githubusercontent.com/IgnaVilla09/eltomillo/main/src/assets/img/vectorplanta.png"
+                alt=""
+              />
             </div>
           </div>
           <div className="carousel-cards-items">
             <img
-              src="./src/assets/img/insumoshuerta.jpg"
+              src="https://raw.githubusercontent.com/IgnaVilla09/eltomillo/main/src/assets/img/insumoshuerta.jpg"
               alt=""
               className="backgroundCard"
             />
             <img
-              src="./src/assets/img/vector.png"
+              src="https://raw.githubusercontent.com/IgnaVilla09/eltomillo/main/src/assets/img/vector.png"
               alt=""
               className="vector-green"
             />
             <div className="description-card">
               <h4>Insumos de huerta</h4>
-              <img src="./src/assets/img/vectorplanta.png" alt="" />
+              <img
+                src="https://raw.githubusercontent.com/IgnaVilla09/eltomillo/main/src/assets/img/vectorplanta.png"
+                alt=""
+              />
             </div>
           </div>
         </div>
