@@ -1,5 +1,4 @@
 import "./CardLaura.css";
-import imagePaths from "../../../images-path";
 
 const CardLaura = () => {
   function toggleExpand() {
@@ -18,13 +17,13 @@ const CardLaura = () => {
       </p>
       <div className="card-container_presentation">
         <img
-          src={imagePaths.laura}
+          src="{imagePaths.laura}"
           alt="Laura"
           className="card-container_presentation--flower"
         />
 
         <div className="card-container_presentation--textarea">
-          <img src={imagePaths.hola} alt="¡Hola!" className="img-saludo" />
+          <img src="{imagePaths.laura}" alt="¡Hola!" className="img-saludo" />
           <div className="contenido">
             <p>
               Mi nombre es Laura, soy la creadora de El Tomillo. Tengo

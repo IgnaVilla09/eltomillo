@@ -1,11 +1,14 @@
 import "./Navbar.css";
-import imagePaths from "../../../images-path";
 
 const Navbar = () => {
   return (
     <div className="navbar-container">
       <a href="/">
-        <img src={imagePaths.logo} alt="" className="logo-img" />
+        <img
+          src="https://raw.githubusercontent.com/IgnaVilla09/eltomillo/main/src/assets/img/tomillologo.png"
+          alt=""
+          className="logo-img"
+        />
       </a>
       <div className="navbar-container-items">
         <ul className="navbar-container-items_menu">
