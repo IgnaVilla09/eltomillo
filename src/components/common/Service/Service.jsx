@@ -5,20 +5,28 @@ const Service = () => {
     <div className="service-container">
       <div className="service-container_title">
         <img
-          src="./src/assets/img/misservicios.png"
-          alt=""
+          src="https://raw.githubusercontent.com/IgnaVilla09/eltomillo/main/src/assets/img/misservicios.png"
+          alt="Mis Servicios"
           className="servicios-title"
         />
-        <img src="./src/assets/img/limones.png" alt="" className="limones" />
+        <img
+          src="https://raw.githubusercontent.com/IgnaVilla09/eltomillo/main/src/assets/img/limones.png"
+          alt="background-services"
+          className="limones"
+        />
       </div>
 
       <div className="service-container_card--left">
         <div className="service-container_card--left--img">
-          <img src="./src/assets/img/planta1.jpg" alt="" className="img-card" />
+          <img
+            src="https://raw.githubusercontent.com/IgnaVilla09/eltomillo/main/src/assets/img/planta1.jpg"
+            alt=""
+            className="img-card"
+          />
         </div>
 
         <img
-          src="./src/assets/img/huertasorganicas.png"
+          src="https://raw.githubusercontent.com/IgnaVilla09/eltomillo/main/src/assets/img/huertasorganicas.png"
           alt=""
           className="img-subtitle"
         />
@@ -38,11 +46,15 @@ const Service = () => {
       </div>
       <div className="service-container_card--right">
         <div className="service-container_card--right--img">
-          <img src="./src/assets/img/kodamas.jpg" alt="" className="img-card" />
+          <img
+            src="https://raw.githubusercontent.com/IgnaVilla09/eltomillo/main/src/assets/img/kodamas.jpg"
+            alt=""
+            className="img-card"
+          />
         </div>
 
         <img
-          src="./src/assets/img/viverocircular.png"
+          src="https://raw.githubusercontent.com/IgnaVilla09/eltomillo/main/src/assets/img/viverocircular.png"
           alt=""
           className="img-subtitle"
         />
@@ -63,11 +75,15 @@ const Service = () => {
       </div>
       <div className="service-container_card--left">
         <div className="service-container_card--left--img">
-          <img src="./src/assets/img/planta3.jpg" alt="" className="img-card" />
+          <img
+            src="https://raw.githubusercontent.com/IgnaVilla09/eltomillo/main/src/assets/img/planta3.jpg"
+            alt=""
+            className="img-card"
+          />
         </div>
 
         <img
-          src="./src/assets/img/paisajismo.png"
+          src="https://raw.githubusercontent.com/IgnaVilla09/eltomillo/main/src/assets/img/paisajismo.png"
           alt=""
           className="img-subtitle"
         />

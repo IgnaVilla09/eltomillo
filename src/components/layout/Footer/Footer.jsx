@@ -8,12 +8,12 @@ const Footer = () => {
     <footer className="container-footer">
       <div className="container-footer_categorias">
         <img
-          src="./src/assets/img/tomillologo.png"
+          src="https://raw.githubusercontent.com/IgnaVilla09/eltomillo/main/src/assets/img/tomillologo.png"
           alt=""
           className="logo-footer"
         />
         <img
-          src="./src/assets/img/escribime.png"
+          src="https://raw.githubusercontent.com/IgnaVilla09/eltomillo/main/src/assets/img/escribime.png"
           alt=""
           className="subtitle-footer"
         />
