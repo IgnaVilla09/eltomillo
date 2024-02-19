@@ -78,11 +78,12 @@
 
 @media screen and (max-width: 700px) {
   .container-footer_categorias {
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 32% 68%;
     grid-template-rows: repeat(3, 150px);
   }
   .subtitle-footer {
-    width: 300px;
+    max-width: 90%;
+    min-width: 200px;
     align-self: flex-end;
   }
   .logo-footer {
@@ -94,6 +95,9 @@
     grid-column: 2/3;
   }
   .socialmedia {
-    font-size: 60px;
+    font-size: 50px;
+  }
+  .text-legal {
+    text-align: center;
   }
 }

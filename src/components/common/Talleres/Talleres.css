@@ -171,18 +171,22 @@
   .container-talleres_alojamiento {
     padding: 10px;
     margin: 30px;
-    grid-template-columns: 60% 40%;
+    grid-template-rows: 100px 300px 100px;
+    grid-template-columns: repeat(2, 50%);
   }
   .text-alojamiento {
     font-size: 15px;
+    padding: 0px;
   }
 
   .subtitle-alojamiento {
-    width: 350px;
+    max-width: 350px;
+    width: 100%;
+    align-self: center;
     grid-column: 1/3;
   }
   .casa {
     justify-content: center;
-    width: 350px;
+    width: 100%;
   }
 }
