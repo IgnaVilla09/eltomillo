@@ -156,3 +156,47 @@
     }
   }
 }
+
+@media screen and (max-width: 1100px) {
+  .service-container {
+    margin: 0 0 50px 0;
+  }
+  .servicios-title {
+    width: 400px;
+  }
+  .limones {
+    width: 400px;
+  }
+  .service-container_title {
+    height: 300px;
+    grid-template-rows: 250px;
+    margin: 100px 0;
+  }
+  .img-subtitle {
+    width: 350px;
+  }
+  .service-container_card--left {
+    padding: 50px;
+    grid-template-rows: 100px 400px 150px;
+  }
+  .service-container_card--left--img {
+    width: 400px;
+    .img-card {
+      width: 350px;
+      height: 550px;
+    }
+  }
+  .service-container_card--right {
+    padding: 60px;
+  }
+  .service-container_card--right--img {
+    width: 400px;
+    .img-card {
+      width: 350px;
+      height: 550px;
+    }
+  }
+  .btn-service {
+    align-self: center;
+  }
+}

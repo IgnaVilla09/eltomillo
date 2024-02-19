@@ -20,7 +20,7 @@ const NavbarMobile = () => {
     <>
       <div className="navbarMobile-container">
         <img
-          src={import.meta.env.VITE_IMAGE_1}
+          src="https://raw.githubusercontent.com/IgnaVilla09/eltomillo/main/src/assets/img/tomillologo.png"
           alt="LogoMobile"
           className="LogoMobile"
         />

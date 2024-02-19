@@ -60,3 +60,13 @@
     font-size: 1.2em;
   }
 }
+
+@media screen and (max-width: 1100px) {
+  .presentation-container {
+    margin: 100px 0 0 0;
+  }
+  .presentation-container_grid {
+    grid-template-columns: repeat(3, 310px);
+    grid-template-rows: repeat(2, 380px);
+  }
+}
