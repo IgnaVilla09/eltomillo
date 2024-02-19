@@ -136,3 +136,53 @@
     width: 400px;
   }
 }
+
+@media screen and (max-width: 700px) {
+  .container-talleres {
+    margin: 50px 0;
+  }
+
+  .container-talleres_box {
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 50px 150px 120px;
+    padding: 10px;
+    margin: 30px;
+  }
+
+  .subtitle-talleres {
+    width: 200px;
+    margin: -30px 10px;
+    align-self: self-start;
+  }
+  .text-talleres {
+    padding: 5px;
+    font-size: 15px;
+  }
+
+  .margarita {
+    margin: -15px -30px;
+    width: 350px;
+  }
+  .btn-talleres {
+    width: 150px;
+    padding: 5px;
+  }
+
+  .container-talleres_alojamiento {
+    padding: 10px;
+    margin: 30px;
+    grid-template-columns: 60% 40%;
+  }
+  .text-alojamiento {
+    font-size: 15px;
+  }
+
+  .subtitle-alojamiento {
+    width: 350px;
+    grid-column: 1/3;
+  }
+  .casa {
+    justify-content: center;
+    width: 350px;
+  }
+}
