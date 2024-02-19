@@ -115,3 +115,22 @@
     width: 250px;
   }
 }
+
+@media screen and (max-width: 700px) {
+  .subtitle-products {
+    display: none;
+  }
+
+  .btn-direction {
+    display: none;
+  }
+  .carousel-container-subtitle {
+    grid-template-columns: 100vw;
+  }
+  .carousel-cards {
+    padding: 0 20px;
+    grid-row: 1/4;
+    grid-column: 1/2;
+    transition: all 0.4s ease;
+  }
+}

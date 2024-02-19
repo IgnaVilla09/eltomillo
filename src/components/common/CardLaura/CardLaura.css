@@ -137,7 +137,7 @@
   }
 }
 /*RESPONSIVE MOBILE*/
-@media screen and (max-width: 510px) {
+@media screen and (max-width: 700px) {
   .card-container {
     p {
       margin: 350px 35px 200px 35px;
@@ -147,16 +147,17 @@
   }
   .card-container_presentation--textareaMobile {
     grid-template-columns: 30% 70%;
-    grid-template-rows: 50px 250px 50px;
+    grid-template-rows: 50px 150px 50px;
+    height: 250px;
   }
   .card-container_presentation--laura {
     width: 100%;
     grid-row: 1/4;
     grid-column: 1/2;
     justify-self: flex-start;
-    align-self: center;
+    align-self: flex-start;
     position: static;
-    margin: 0;
+    margin: 20px 0;
   }
   .img-saludo-mobile {
     width: 100px;

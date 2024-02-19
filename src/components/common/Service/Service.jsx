@@ -1,3 +1,6 @@
+import HuertasMobile from "./CardDialog/HuertasMobile";
+import PaisajismoMobile from "./CardDialog/PaisajismoMobile";
+import ViveroMobile from "./CardDialog/ViveroMobile";
 import "./Service.css";
 
 const Service = () => {
@@ -40,6 +43,11 @@ const Service = () => {
           la huerta. ¿Cuánto tiempo toma? Dependiendo del tamaño del proyecto. 
           ¿En dónde? Ciudad de Mendoza y alrededores.
         </p>
+        <p className="text-service_Mobile">
+          Gestión proyectos de agricultura urbana en el ámbito público y
+          privado.
+        </p>
+        <HuertasMobile />
         <a href="" className="btn-service">
           Pedinos un presupuesto
         </a>
@@ -69,6 +77,10 @@ const Service = () => {
           Viernes. Por la mañana con cita previa y por las tardes de
           16:30-20:30. Los días sábados de 09:30-13:30.
         </p>
+        <p className="text-service_Mobile">
+          Un espacio ecológico para la creación de proyectos circulares.
+        </p>
+        <ViveroMobile />
         <a href="" className="btn-service">
           Agenda tu visita
         </a>
@@ -98,6 +110,10 @@ const Service = () => {
           Dependiendo del tamaño del proyecto. ¿En dónde? Ciudad de Mendoza y
           alrededores.
         </p>
+        <p className="text-service_Mobile">
+          Diseño de jardines residenciales y otros espacios verdes.
+        </p>
+        <PaisajismoMobile />
         <a href="" className="btn-service">
           Pedinos un presupuesto
         </a>

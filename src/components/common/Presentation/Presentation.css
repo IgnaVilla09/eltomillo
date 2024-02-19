@@ -70,3 +70,27 @@
     grid-template-rows: repeat(2, 380px);
   }
 }
+
+@media screen and (max-width: 700px) {
+  .presentation-container {
+    padding: 50px 10px;
+    .subtitle-img {
+      width: 300px;
+      margin: -20px 20px;
+    }
+  }
+  .presentation-container_grid {
+    display: flex;
+    padding: 0;
+    flex-wrap: wrap;
+  }
+  .presentation-container_grid--section {
+    width: 200px;
+    font-size: 15px;
+    img {
+      align-items: center;
+      justify-self: flex-start;
+      width: 100px;
+    }
+  }
+}
