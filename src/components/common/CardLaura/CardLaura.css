@@ -146,10 +146,11 @@
     }
   }
   .card-container_presentation--textareaMobile {
+    grid-template-columns: 30% 70%;
     grid-template-rows: 50px 250px 50px;
   }
   .card-container_presentation--laura {
-    width: 140px;
+    width: 100%;
     grid-row: 1/4;
     grid-column: 1/2;
     justify-self: flex-start;
@@ -171,8 +172,8 @@
     p {
       margin: 0;
       padding: 20px 30px;
-      font-size: 15px;
-      line-height: 30px;
+      font-size: 12px;
+      line-height: 20px;
     }
   }
   .box-dialog {
