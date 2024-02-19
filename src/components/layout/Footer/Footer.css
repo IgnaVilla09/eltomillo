@@ -59,3 +59,19 @@
   height: 20px;
   background: #000;
 }
+
+@media screen and (max-width: 1440px) {
+  .container-footer_categorias {
+    grid-template-columns: repeat(2, 600px);
+  }
+  .subtitle-footer {
+    width: 300px;
+    justify-self: center;
+    align-self: center;
+  }
+  .logo-footer {
+    justify-self: center;
+    align-self: center;
+    width: 250px;
+  }
+}

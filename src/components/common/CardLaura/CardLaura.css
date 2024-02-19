@@ -49,44 +49,24 @@
 
 /*RESPONSIVE DESKTOP 900P*/
 @media screen and (max-width: 1440px) {
-  .card-container_presentation {
-    img {
-      width: 800px;
-      left: -25vw;
-      margin: 300px 0;
-      position: absolute;
-      z-index: 50;
-    }
+  .img-saludo {
+    width: 150px;
+    margin: 30px 270px;
   }
+
+  .card-container_presentation--laura {
+    width: 400px;
+    left: 0;
+    margin: 100px -20px;
+    position: absolute;
+    z-index: 50;
+  }
+
   .card-container_presentation--textarea {
-    width: 1300px;
-    height: 550px;
+    width: 1200px;
+    height: 650px;
     margin: 50px 0 0 0;
-    padding: 20px 15px 0 250px;
-    line-height: 24px;
-    font-size: 18px;
-  }
-}
-/*RESPONSIVE DESKTOP 768P*/
-@media screen and (max-width: 1366px) {
-  .card-container {
-    font-size: 3em;
-    line-height: 1.5em;
-  }
-  .card-container_presentation {
-    img {
-      width: 750px;
-      left: -25vw;
-      margin: 300px 0;
-      position: absolute;
-      z-index: 50;
-    }
-  }
-  .card-container_presentation--textarea {
-    width: 1220px;
-    height: 580px;
-    margin: 150px 0 0 0;
-    padding: 20px 15px 0 250px;
+    padding: 20px 15px 0 450px;
     line-height: 24px;
     font-size: 18px;
   }

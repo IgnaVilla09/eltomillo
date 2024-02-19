@@ -109,3 +109,9 @@
     transform-origin: bottom;
   }
 }
+
+@media screen and (max-width: 1440px) {
+  .subtitle-products {
+    width: 250px;
+  }
+}

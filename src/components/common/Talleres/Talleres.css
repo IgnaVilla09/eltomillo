@@ -88,3 +88,35 @@
   font-size: 2em;
   text-align: center;
 }
+
+@media screen and (max-width: 1440px) {
+  .container-talleres_box {
+    padding: 60px;
+    grid-template-rows: 150px 200px 100px;
+  }
+  .text-talleres {
+    padding: 30px 70px;
+    font-size: 1.4em;
+  }
+  .margarita {
+    margin: -50px -100px;
+    width: 700px;
+  }
+  .container-talleres_alojamiento {
+    padding: 40px;
+    grid-template-columns: 40% 60%;
+  }
+  .subtitle-alojamiento {
+    align-self: center;
+    width: 650px;
+  }
+  .casa {
+    width: 550px;
+    justify-self: center;
+    align-self: center;
+  }
+  .text-alojamiento {
+    padding: 20px;
+    font-size: 1.4em;
+  }
+}

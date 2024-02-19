@@ -39,3 +39,24 @@
 .span-presentation {
   color: #73a62a;
 }
+
+@media screen and (max-width: 1440px) {
+  .presentation-container {
+    margin: 200px 0;
+    .subtitle-img {
+      width: 600px;
+    }
+    img {
+      width: 200px;
+    }
+  }
+
+  .presentation-container_grid {
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: repeat(2, 380px);
+  }
+
+  .presentation-container_grid--section {
+    font-size: 1.2em;
+  }
+}
