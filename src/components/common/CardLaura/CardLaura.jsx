@@ -36,8 +36,14 @@ const CardLaura = () => {
         logran <span>fusionar</span> la modernidad de la ciudad con la vitalidad
         de la <span>naturaleza</span>
       </p>
+
       <div className="card-container_presentation">
         <div className="card-container_presentation--textarea">
+          <img
+            src="https://raw.githubusercontent.com/IgnaVilla09/eltomillo/main/src/assets/img/lauratomillo.jpg"
+            alt="Laura"
+            className="card-container_presentation--laura"
+          />
           <img
             src="https://raw.githubusercontent.com/IgnaVilla09/eltomillo/main/src/assets/img/Hola.png"
             alt="¡Hola!"
