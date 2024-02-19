@@ -71,7 +71,7 @@
   }
 }
 
-/*RESPONSIVE MOBILE*/
+/*RESPONSIVE TABLET*/
 @media screen and (max-width: 1100px) {
   .card-container {
     margin: 0;
@@ -136,6 +136,51 @@
     width: 100px;
   }
 }
-
+/*RESPONSIVE MOBILE*/
 @media screen and (max-width: 510px) {
+  .card-container {
+    p {
+      margin: 350px 35px 200px 35px;
+      line-height: 35px;
+      font-size: 25px;
+    }
+  }
+  .card-container_presentation--textareaMobile {
+    grid-template-rows: 50px 250px 50px;
+  }
+  .card-container_presentation--laura {
+    width: 140px;
+    grid-row: 1/4;
+    grid-column: 1/2;
+    justify-self: flex-start;
+    align-self: center;
+    position: static;
+    margin: 0;
+  }
+  .img-saludo-mobile {
+    width: 100px;
+    align-self: center;
+    justify-self: center;
+    grid-row: 1/2;
+    grid-column: 2/3;
+  }
+  .contenido-mobile {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    height: 100%;
+    p {
+      margin: 0;
+      padding: 20px 30px;
+      font-size: 15px;
+      line-height: 30px;
+    }
+  }
+  .box-dialog {
+    grid-row: 3/4;
+    grid-column: 2/3;
+    align-self: center;
+  }
+  .saludo-alert {
+    width: 100px;
+  }
 }
