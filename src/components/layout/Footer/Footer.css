@@ -38,8 +38,7 @@
 }
 
 .socialmedia {
-  font-size: 70px;
-  color: #000;
+  width: 70px;
 }
 
 .copyright {
@@ -84,7 +83,7 @@
     grid-column: 2/3;
   }
   .socialmedia {
-    font-size: 45px;
+    width: 45px;
   }
   .text-legal {
     text-align: center;

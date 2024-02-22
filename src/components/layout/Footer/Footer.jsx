@@ -19,16 +19,32 @@ const Footer = () => {
         />
         <div className="container-social-media">
           <a href="">
-            <InstagramIcon fontSize="string" className="socialmedia" />
+            <img
+              src="https://raw.githubusercontent.com/IgnaVilla09/eltomillo/main/src/assets/img/svg/Instagram.png"
+              alt=""
+              className="socialmedia"
+            />
           </a>
           <a href="">
-            <WhatsAppIcon fontSize="string" className="socialmedia" />
+            <img
+              src="https://raw.githubusercontent.com/IgnaVilla09/eltomillo/main/src/assets/img/svg/Spotify.png"
+              alt=""
+              className="socialmedia"
+            />
           </a>
           <a href="">
-            <InstagramIcon fontSize="string" className="socialmedia" />
+            <img
+              src="https://raw.githubusercontent.com/IgnaVilla09/eltomillo/main/src/assets/img/svg/Whatsapp.png"
+              alt=""
+              className="socialmedia"
+            />
           </a>
           <a href="">
-            <LinkedInIcon fontSize="string" className="socialmedia" />
+            <img
+              src="https://raw.githubusercontent.com/IgnaVilla09/eltomillo/main/src/assets/img/svg/Linkedin.png"
+              alt=""
+              className="socialmedia"
+            />
           </a>
         </div>
         <p className="copyright">@2024eltomillo</p>
