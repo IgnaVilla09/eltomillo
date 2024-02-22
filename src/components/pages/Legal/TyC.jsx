@@ -9,6 +9,7 @@ const TyC = () => {
         Ir a inicio
       </Link>
       <h1>Términos y Condiciones</h1>
+      <h3>Fecha de última actualización: 22/02/2024</h3>
       <ol>
         <li>
           <h3>Aceptación de los Términos</h3>
@@ -72,8 +73,6 @@ const TyC = () => {
         Si tiene alguna pregunta o inquietud sobre estos términos y condiciones,
         no dude en ponerse en contacto con nosotros.
       </p>
-
-      <p>Fecha de última actualización: 22/02/2024</p>
     </div>
   );
 };
