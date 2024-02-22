@@ -246,6 +246,7 @@
   .img-subtitle {
     align-self: flex-end;
     width: 200px;
+    max-width: 80%;
   }
   .service-container_card--left {
     margin: 0;
@@ -273,7 +274,7 @@
   }
   .service-container_card--right {
     margin: 0;
-    padding: 15px 30px;
+    padding: 15px 50px;
     grid-template-columns: repeat(2, 50%);
     grid-template-rows: 80px 80px 150px;
   }
