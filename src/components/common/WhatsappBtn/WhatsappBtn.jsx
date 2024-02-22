@@ -15,7 +15,7 @@ const WhatsappBtn = () => {
   }, []);
   return (
     <a
-      href="https://wa.me/26224566565"
+      href="https://api.whatsapp.com/send?phone=5492615970583&text=%C2%A1Hola,%20Laura!%20Vi%20tu%20p%C3%A1gina%20y%20quiero%20hacerte%20unas%20consultas…"
       target="_blank"
       className="container-btn-wsp"
     >

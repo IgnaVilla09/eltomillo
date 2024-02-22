@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -6,42 +7,42 @@ const Navbar = () => {
       <a href="/">
         <img
           src="https://raw.githubusercontent.com/IgnaVilla09/eltomillo/main/src/assets/img/tomillologo.png"
-          alt=""
+          alt="El tomillo Espacio Agrourbano"
           className="logo-img"
         />
       </a>
       <div className="navbar-container-items">
         <ul className="navbar-container-items_menu">
           <li className="items_menu">
-            <a href="">
+            <a href="#cardLaura">
               Soy <span>Laura</span>
             </a>
           </li>
 
           <li className="items_menu">
-            <a href="">
+            <a href="#carouselCards">
               Mis <span>productos</span>
             </a>
           </li>
           <li className="items_menu">
-            <a href="">
+            <a href="#service">
               Mis <span>servicios</span>
             </a>
           </li>
 
           <li className="items_menu">
-            <a href="">
+            <a href="#instagramFeed">
               <span>Proyectos</span> realizados
             </a>
           </li>
           <li className="items_menu">
-            <a href="">
+            <a href="#sliderLogos">
               <span>Alianzas</span> activas
             </a>
           </li>
 
           <li className="items_menu">
-            <a href="">
+            <a href="#talleres">
               Experiencias y <span>talleres</span>
             </a>
           </li>

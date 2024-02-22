@@ -68,7 +68,11 @@ export default function ViveroMobile() {
               a Viernes. Por la mañana con cita previa y por las tardes de
               16:30-20:30. Los días sábados de 09:30-13:30.
             </Typography>
-            <a href="" className="btn-serviceMobile">
+            <a
+              href="https://api.whatsapp.com/send?phone=5492615970583&text=%C2%A1Hola,%20Laura!%20Vi%20tu%20p%C3%A1gina%20y%20quiero%20hacerte%20unas%20consultas…"
+              target="_blank"
+              className="btn-serviceMobile"
+            >
               Agenda tu visita
             </a>
           </DialogContent>

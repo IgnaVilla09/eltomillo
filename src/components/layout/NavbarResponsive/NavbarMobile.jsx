@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./NavbarMobile.css";
 import MenuIcon from "@mui/icons-material/Menu";
 import CancelIcon from "@mui/icons-material/Cancel";
-import { Button } from "@mui/material";
 
 const NavbarMobile = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -29,26 +28,32 @@ const NavbarMobile = () => {
         </button>
         <ul className="container-items">
           <li className="menu-li">
-            <a href="">Soy Laura</a>
+            <a href="#cardLaura">Soy Laura</a>
           </li>
           <li className="menu-li">
-            <a href="">Mis productos</a>
+            <a href="#carouselCards">Mis productos</a>
           </li>
           <li className="menu-li">
-            <a href="#">Mis servicios</a>
+            <a href="#service">Mis servicios</a>
           </li>
           <li className="menu-li">
-            <a href="">Proyectos realizados</a>
+            <a href="#instagramFeed">Proyectos realizados</a>
           </li>
           <li className="menu-li">
-            <a href="">Alianzas Activas</a>
+            <a href="#sliderLogos">Alianzas Activas</a>
           </li>
           <li className="menu-li">
-            <a href="">Experiencias y talleres</a>
+            <a href="#talleres">Experiencias y talleres</a>
           </li>
         </ul>
         <div className="btn-contact">
-          <button className="btn-contact_click">Escríbeme</button>
+          <a
+            href="https://api.whatsapp.com/send?phone=5492615970583&text=%C2%A1Hola,%20Laura!%20Vi%20tu%20p%C3%A1gina%20y%20quiero%20hacerte%20unas%20consultas…"
+            target="_blank"
+            className="btn-contact_click"
+          >
+            Escríbeme
+          </a>
         </div>
         <div className="vector-menu">
           <img

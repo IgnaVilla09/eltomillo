@@ -48,7 +48,11 @@ const Service = () => {
           privado.
         </p>
         <HuertasMobile />
-        <a href="" className="btn-service">
+        <a
+          href="https://api.whatsapp.com/send?phone=5492615970583&text=%C2%A1Hola,%20Laura!%20Vi%20tu%20p%C3%A1gina%20y%20quiero%20hacerte%20unas%20consultas…"
+          target="_blank"
+          className="btn-service"
+        >
           Pedinos un presupuesto
         </a>
       </div>
@@ -81,7 +85,11 @@ const Service = () => {
           Un espacio ecológico para la creación de proyectos circulares.
         </p>
         <ViveroMobile />
-        <a href="" className="btn-serviceRight">
+        <a
+          href="https://api.whatsapp.com/send?phone=5492615970583&text=%C2%A1Hola,%20Laura!%20Vi%20tu%20p%C3%A1gina%20y%20quiero%20hacerte%20unas%20consultas…"
+          target="_blank"
+          className="btn-serviceRight"
+        >
           Agenda tu visita
         </a>
       </div>
@@ -114,7 +122,11 @@ const Service = () => {
           Diseño de jardines residenciales y otros espacios verdes.
         </p>
         <PaisajismoMobile />
-        <a href="" className="btn-service">
+        <a
+          href="https://api.whatsapp.com/send?phone=5492615970583&text=%C2%A1Hola,%20Laura!%20Vi%20tu%20p%C3%A1gina%20y%20quiero%20hacerte%20unas%20consultas…"
+          target="_blank"
+          className="btn-service"
+        >
           Pedinos un presupuesto
         </a>
       </div>

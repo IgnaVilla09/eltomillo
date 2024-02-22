@@ -2,7 +2,7 @@ import "./Presentation.css";
 
 const Presentation = () => {
   return (
-    <div className="presentation-container">
+    <div className="presentation-container" id="Presentation">
       <img
         src="https://raw.githubusercontent.com/IgnaVilla09/eltomillo/main/src/assets/img/micompromiso.png"
         alt="Mi compromiso"

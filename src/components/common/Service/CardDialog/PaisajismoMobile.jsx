@@ -68,7 +68,11 @@ export default function PaisajismoMobile() {
               la ejecución. ¿Cuánto tiempo toma? Dependiendo del tamaño del
               proyecto. ¿En dónde? Ciudad de Mendoza y alrededores.
             </Typography>
-            <a href="" className="btn-serviceMobile">
+            <a
+              href="https://api.whatsapp.com/send?phone=5492615970583&text=%C2%A1Hola,%20Laura!%20Vi%20tu%20p%C3%A1gina%20y%20quiero%20hacerte%20unas%20consultas…"
+              target="_blank"
+              className="btn-serviceMobile"
+            >
               Pedinos un presupuesto
             </a>
           </DialogContent>

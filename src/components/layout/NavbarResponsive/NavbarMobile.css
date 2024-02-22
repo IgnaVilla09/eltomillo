@@ -107,6 +107,7 @@
 }
 
 .btn-contact_click {
+  text-decoration: none;
   color: #fff;
   font-size: 1.4em;
   padding: 5px 20px;

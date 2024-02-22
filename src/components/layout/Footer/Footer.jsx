@@ -1,7 +1,5 @@
 import "./Footer.css";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import WhatsAppIcon from "@mui/icons-material/WhatsApp";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -18,28 +16,37 @@ const Footer = () => {
           className="subtitle-footer"
         />
         <div className="container-social-media">
-          <a href="">
+          <a href="https://www.instagram.com/eltomillomza/" target="_blank">
             <img
               src="https://raw.githubusercontent.com/IgnaVilla09/eltomillo/main/src/assets/img/svg/Instagram.png"
               alt=""
               className="socialmedia"
             />
           </a>
-          <a href="">
+          <a
+            href="https://open.spotify.com/playlist/20CtmSniWjKPcLYZfePwsd?si=qvKu27YBSKG3FPwGvTIOLA&pi=u-bQLEHSz-QzWT "
+            target="_blank"
+          >
             <img
               src="https://raw.githubusercontent.com/IgnaVilla09/eltomillo/main/src/assets/img/svg/Spotify.png"
               alt=""
               className="socialmedia"
             />
           </a>
-          <a href="">
+          <a
+            href="https://api.whatsapp.com/send?phone=5492615970583&text=%C2%A1Hola,%20Laura!%20Vi%20tu%20p%C3%A1gina%20y%20quiero%20hacerte%20unas%20consultas…"
+            target="_blank"
+          >
             <img
               src="https://raw.githubusercontent.com/IgnaVilla09/eltomillo/main/src/assets/img/svg/Whatsapp.png"
               alt=""
               className="socialmedia"
             />
           </a>
-          <a href="">
+          <a
+            href="https://www.linkedin.com/in/maria-laura-crayon-54402021/?originalSubdomain=ar"
+            target="_blank"
+          >
             <img
               src="https://raw.githubusercontent.com/IgnaVilla09/eltomillo/main/src/assets/img/svg/Linkedin.png"
               alt=""
@@ -49,9 +56,9 @@ const Footer = () => {
         </div>
         <p className="copyright">@2024eltomillo</p>
         <div className="text-legal">
-          <a href="">Políticas de privacidad </a>
+          <Link to="/pyp">Políticas de privacidad</Link>
           <div className="footer-separator"></div>
-          <a href="">Términos y condiciones </a>
+          <Link to="/TyC">Términos y condiciones</Link>
         </div>
       </div>
     </footer>

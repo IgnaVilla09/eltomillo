@@ -1,0 +1,24 @@
+.container-legal {
+  width: 100%;
+  margin: 400px 0 0 0;
+  padding: 50px 100px;
+  line-height: 30px;
+  h1 {
+    font-size: 4em;
+    margin: 100px 0;
+  }
+  h3 {
+    font-weight: 600;
+  }
+  a {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    width: 200px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #73a62a;
+    padding: 10px;
+    border: 2px solid #73a62a;
+  }
+}
