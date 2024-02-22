@@ -81,7 +81,7 @@ const Service = () => {
           Un espacio ecológico para la creación de proyectos circulares.
         </p>
         <ViveroMobile />
-        <a href="" className="btn-service">
+        <a href="" className="btn-serviceRight">
           Agenda tu visita
         </a>
       </div>
