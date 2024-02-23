@@ -22,3 +22,12 @@
     height: 500px;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .container-instagram_embed {
+    height: auto;
+    iframe {
+      height: 400px;
+    }
+  }
+}

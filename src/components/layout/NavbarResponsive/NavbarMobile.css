@@ -1,5 +1,6 @@
 .navbarMobile-container {
   display: grid;
+  overflow: hidden;
   width: 100%;
   background-image: url("../../../assets/img/background.jpeg");
   filter: contrast(105%);
@@ -118,4 +119,13 @@
 
 .show {
   display: grid;
+}
+
+@media screen and (max-width: 400px) {
+  .navbarMobile-container {
+    grid-template-columns: 10vw 60vw 15vw;
+    img {
+      width: 80px;
+    }
+  }
 }
