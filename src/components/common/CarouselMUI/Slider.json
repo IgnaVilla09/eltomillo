@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "Catálogos conscientes",
+    "image": "https://raw.githubusercontent.com/IgnaVilla09/eltomillo/main/src/assets/img/catalogoconsciente.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Macetas",
+    "image": "https://raw.githubusercontent.com/IgnaVilla09/eltomillo/main/src/assets/img/macetas.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Plantas de exterior",
+    "image": "https://raw.githubusercontent.com/IgnaVilla09/eltomillo/main/src/assets/img/plantasexteriores.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Plantas de interior",
+    "image": "https://raw.githubusercontent.com/IgnaVilla09/eltomillo/main/src/assets/img/kokedamas.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Insumos de huerta",
+    "image": "https://raw.githubusercontent.com/IgnaVilla09/eltomillo/main/src/assets/img/insumoshuerta.jpg"
+  }
+]

@@ -1,5 +1,5 @@
 import CardLaura from "../../common/CardLaura/CardLaura";
-import CarouselCards from "../../common/Carousel/Carousel";
+import Example from "../../common/CarouselMUI/CarouselTwo";
 import InstagramFeed from "../../common/InstagramFeed/InstagramFeed";
 import Presentation from "../../common/Presentation/Presentation";
 import Service from "../../common/Service/Service";
@@ -18,7 +18,8 @@ const Home = () => {
         <Presentation />
       </div>
       <div id="carouselCards">
-        <CarouselCards />
+        <Example />
+        {/* <CarouselCards /> */}
       </div>
       <div id="service">
         <Service />
