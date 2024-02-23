@@ -191,7 +191,7 @@
   }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 440px) {
   .container-talleres_box {
     grid-template-rows: 50px 100px 70px;
     border-radius: 50px;
@@ -220,7 +220,7 @@
     font-size: 11px;
   }
   .casa {
-    width: 90%;
+    width: 100%;
     grid-column: 1/2;
     grid-row: 2/4;
   }
